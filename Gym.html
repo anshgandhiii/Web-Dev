@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitHit</title>
+</head>
+<link rel="stylesheet" href="css/Gym.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url(Gym.jpg);
+        font-family: cursive;
+
+    }
+    .left{
+        position: absolute;
+        top: 30px;
+        left: 42px;
+        display: inline-block;
+        border: 2px solid red;
+    }
+    .left img{
+        border: 8px solid black;
+        width: 111px;
+        border-radius: 58px;
+    }
+    .right{
+        position: absolute;
+        right: 2px;
+        top: 1px;
+        border: 2px solid red;
+        
+    }
+    .right button
+    {
+        color: #e9eaf1;
+        background-color: #0621e1
+        
+    }
+    .btn{
+        margin: 11px 23px;
+        padding: -5px -5px;
+        border: 4px solid black;
+        border-radius: 18px;
+        font-size: 12px;
+        font-family: cursive;
+        cursor: pointer;
+    }
+    .right button:hover
+    {
+        color: gray;
+    }
+    .center{
+        background-color: black;
+        display: block;
+        width: 644px;
+        margin: 8px auto;
+        border: 2px solid #3fff00;
+        border-radius: 40px;
+        
+    }
+    .NavBar li{
+        display: inline-block;
+    }
+    .NavBar li a{
+        color: rgb(0 255 102);
+        padding: 22px 14px;
+        font-size: 19px;
+    }
+    .NavBar li a:hover{
+        color: rgb(5, 224, 253);
+    }
+
+    .container{
+         margin: 130px 71px;
+         width: 552px;
+         border-radius: 38px;
+         border: 5px solid black;
+    }
+    
+    .formtext {
+        width: 500px;
+        padding: 0px 7px;
+        margin: 26px auto;
+        border: 5px solid #3fff00;
+        color: #3fff00;
+        border-radius: 51px;
+        background-color: black;
+    }
+    .form{
+        text-align: center;
+        margin: 6px ;
+    }
+    .container button{
+        padding: 5px 20px;
+        margin: 6px 225px;
+    }
+    #name{
+    margin: 5px 6px;
+    padding: 5px 6px;
+    }
+    #cont{
+    margin: 5px 6px;
+    padding: 5px 6px;
+    }
+    #mem{
+    margin: 5px 6px;
+    padding: 5px 6px;
+    }
+    #mail{
+    margin: 5px 6px;
+    padding: 5px 6px;
+    }
+</style>
+<body>
+   <header class="head">
+    <div class="left">
+        <!-- logo -->
+        <img src="gum logo edit.jpg" alt="">
+
+    </div>
+    <div class="center">
+        <!-- navigation bar/search -->
+        <ul class="NavBar">
+            <li><a href="http://127.0.0.1:5500/Projects/Gym.html">Home</a></li>
+            <li><a href="#">Branches</a></li>
+            <li><a href="https://www.calculator.net/bmi-calculator.html">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <!-- not decided -->
+        <button class="btn">Enroll Me <br>Now</button>
+    </div>
+
+    <div class="container">
+         <div class="formtext"><h1>Fill out the form to join us now</h1></div>
+         <form action="noaction.php">
+         <div class="form" id name><input type="text"  placeholder="Enter your name "></div>
+         <div class="form" id cont><input type="text" placeholder="Enter your contact number"></div>
+         <div class="form" id mem><input type="text" placeholder="Enter your membership period"></div>
+         <div class="form" id mail><input type="email" name="" placeholder="Enter your email id"></div>
+         <button class="btn">Submit</button>
+         </form>
+    </div>
+
+   </header> 
+</body>
+</html>
